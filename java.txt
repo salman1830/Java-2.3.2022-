@@ -1,0 +1,25 @@
+package javaapplication1;
+
+import java.util.ArrayList;
+
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> salmanList = new ArrayList<Integer>();
+        salmanList.add(10);
+        salmanList.add(20);
+        salmanList.add(30);
+        salmanList.add(40);
+        System.out.println("SalmanList:" + salmanList);
+        salmanList.set(1, 200);
+        System.out.println("After Update:" + salmanList);
+        System.out.println("Salman List size:" + salmanList);
+        salmanList.remove(2);
+        System.out.println("\nAfter Remove:" + salmanList);
+        salmanList.clear();
+        System.out.println("\nAfter clear");
+        System.out.println("Salman List Size:+salmanList.size");
+
+    }
+
+}
